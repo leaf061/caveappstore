@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeafStore</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-purple-600">LeafStore</h1>
+    <input type="text" placeholder="Search apps..." class="border rounded px-3 py-1 w-60" />
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-purple-600 text-white text-center py-16">
+    <h2 class="text-4xl font-bold mb-2">Discover the Best Scratch & Web Apps</h2>
+    <p class="text-lg">Created and curated by the Leaf community</p>
+  </section>
+
+  <!-- Categories -->
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <h3 class="text-xl font-semibold mb-4">Categories</h3>
+    <div class="flex gap-4 flex-wrap">
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-purple-200">Games</span>
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-purple-200">Music</span>
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-purple-200">Tools</span>
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-purple-200">Art</span>
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-purple-200">Education</span>
+    </div>
+  </section>
+
+  <!-- Featured Apps -->
+  <section class="max-w-6xl mx-auto px-4 py-6">
+    <h3 class="text-xl font-semibold mb-6">Featured Apps</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      <!-- App Card -->
+      <div class="bg-white rounded-xl shadow p-4 hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x180" class="rounded mb-3" alt="App image" />
+        <h4 class="text-lg font-bold">LeafBeat Player</h4>
+        <p class="text-sm text-gray-500 mb-2">Music / Scratch</p>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 text-sm">Launch</button>
+      </div>
+
+      <!-- Repeat app cards as needed -->
+      <div class="bg-white rounded-xl shadow p-4 hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x180" class="rounded mb-3" alt="App image" />
+        <h4 class="text-lg font-bold">Pixel Paint</h4>
+        <p class="text-sm text-gray-500 mb-2">Art / Web</p>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 text-sm">Launch</button>
+      </div>
+
+      <div class="bg-white rounded-xl shadow p-4 hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x180" class="rounded mb-3" alt="App image" />
+        <h4 class="text-lg font-bold">Rhythm Scratch</h4>
+        <p class="text-sm text-gray-500 mb-2">Music Game</p>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 text-sm">Launch</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center p-6 text-gray-400 text-sm mt-10">
+    &copy; 2025 LeafStore. Built by Leaf.
+  </footer>
+</body>
+</html>
